@@ -1,0 +1,10 @@
+.item-container{
+    background-color: #EBE1DA;
+    border-radius: 5%;
+    height: 100%;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+}

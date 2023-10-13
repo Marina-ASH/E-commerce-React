@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.navBar{
+  background-color: #EBACA3;
+}
+
+.container-navlink{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  margin-right: 10px;
+}
+.navLink{
+  display: flex;
+}
+.number{
+  margin-right: 5px;
+  margin-left: -11px;
+}
