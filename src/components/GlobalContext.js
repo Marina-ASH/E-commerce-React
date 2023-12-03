@@ -3,7 +3,6 @@ import React, { createContext, useContext, useState } from 'react';
 const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
 
-    // Mettez ici les valeurs et fonctions que vous souhaitez partager
     const [cart, setCart] = useState(JSON.parse(localStorage.getItem("cart")??"{}"));
 
     const addToCart = (item) => {
@@ -62,10 +61,6 @@ export const GlobalProvider = ({ children }) => {
             return newCart;
         });
     };
-
-
-
-    // Vous pouvez ajouter d'autres états et fonctions ici
 
     return (
       <GlobalContext.Provider value={{ cart, addToCart , deleteItem, incrementAmount, decrementAmount}}>

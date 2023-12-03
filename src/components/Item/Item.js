@@ -67,7 +67,7 @@ function Item({ item }) {
               Add to cart
             </Button>
             <Button variant="success" href="/cart" onClick={handleShowModal}>
-              Cart
+              Go to Cart
             </Button>
           </Modal.Footer>
         </Modal>

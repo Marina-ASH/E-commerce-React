@@ -78,4 +78,7 @@ export const dataItem = [
         price: "49€",
 
     },
+
+
+
 ]
